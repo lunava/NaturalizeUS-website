@@ -2,5 +2,24 @@ body{
   margin: 0;
   padding: 0;
   letter-spacing: 2px;
-  background-color: black;
+  background-color: #9efdff;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.button{
+
+  border: 1px solid blue;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  color: blue;
+}
+.button:hover{
+  letter-spacing: 3px;
+  transition:  all 0.3s ease 0s;
+}
+a:visited{
+  color: black;
+}
+a::before{
+  color: black;
 }
