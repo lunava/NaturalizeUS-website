@@ -4,15 +4,37 @@
     <meta charset="utf-8">
     <title> NaturilizeUS</title>
     <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   </head>
 
   <body>
-		<h1>NaturalizeUS</h1>
-		<h2>Guiding you on your path to US Citizenship</h2>
-    <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button">  Test Breakdown</button> </a>
+    <div class="top-bar">
+      <h1 class = "title-main"> Naturalize <span style = "color: #42c2f5">US</span></h1>
+      <a href="{{url_for('breakdown')}}"> <button class = "button top-button"> Civics Practice Tests</button></a>
+       <a href="{{url_for('breakdown')}}"> <button class = "button top-button" >Example Oral Answers</button></a>
+    </div>
 
-    <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button"> <button>Civics Practice Tests</button></a>
-    <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button"> <button>Example Oral Answers</button></a>
+    <div class = "header-container">
+      <div class="back-img">
+        <div class = "title">
+            <div class = "subtitle borders">
+              <h2 class=" white-text">Guiding you on your path to US Citizenship</h2>
+          </div>
+
+        </div>
+        <div class="test_breakdown">
+          <a href="{{url_for('breakdown')}}"> <button class = "button">  Test Breakdown</button> </a>
+
+        </div>
+      </div>
+
+
+      <div class="buttons">
+
+      </div>
+    </div>
+
+
   </body>
 
   	 <!--ADD BANNER/IMAGE ON SPLASH PAGE!--->
