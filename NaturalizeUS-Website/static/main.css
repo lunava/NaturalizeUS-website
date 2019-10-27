@@ -12,6 +12,7 @@ body{
   display: inline-block;
   border-radius: 5px;
   color: blue;
+  padding: 15px;
 }
 .button:hover{
   letter-spacing: 3px;

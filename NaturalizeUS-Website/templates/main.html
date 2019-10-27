@@ -3,20 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title> NaturilizeUS</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
   </head>
+
   <body>
 		<h1>NaturalizeUS</h1>
 		<h2>Guiding you on your path to US Citizenship</h2>
+    <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button">  Test Breakdown</button> </a>
+
+    <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button"> <button>Civics Practice Tests</button></a>
+    <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button"> <button>Example Oral Answers</button></a>
   </body>
-  <a href="{{url_for('breakdown')}}"> <button class = "button" type = "button">  Test Breakdown</button> </a>
-
-  <button>
-  	Civics Practice Test
-  </button>
-  <button>
-	Example Oral Answers
-  </button>
-
 
   	 <!--ADD BANNER/IMAGE ON SPLASH PAGE!--->
 </html>
