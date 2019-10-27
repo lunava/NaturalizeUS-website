@@ -10,20 +10,23 @@
   <body>
     <div class="top-bar">
       <h1 class = "title-main"> Naturalize <span style = "color: #42c2f5">US</span></h1>
-      <a href="{{url_for('breakdown')}}"> <button class = "button top-button"> Civics Practice Tests</button></a>
-       <a href="{{url_for('breakdown')}}"> <button class = "button top-button" >Example Oral Answers</button></a>
+      <div class="top-buttons">
+        <a href="{{url_for('breakdown')}}"> <button class = "button top-button"> Civics Practice Tests</button></a>
+         <a href="{{url_for('breakdown')}}"> <button class = "button top-button" >Example Oral Answers</button></a>
+      </div>
+
     </div>
 
     <div class = "header-container">
       <div class="back-img">
         <div class = "title">
-            <div class = "subtitle borders">
-              <h2 class=" white-text">Guiding you on your path to US Citizenship</h2>
+            <div class = "subtitle">
+              <h2 class=" white-text" style = "margin: 4px; letter-spacing: 1px;">Guiding you on your path to US Citizenship</h2>
           </div>
 
         </div>
         <div class="test_breakdown">
-          <a href="{{url_for('breakdown')}}"> <button class = "button">  Test Breakdown</button> </a>
+          <a href="{{url_for('breakdown')}}"> <button class = "button main-button">  Test Breakdown</button> </a>
 
         </div>
       </div>
